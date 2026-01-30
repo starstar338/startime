@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background-color: #0a0a2a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#cosmic-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.time-display {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 30, 0.7);
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: white;
+    text-align: right;
+    z-index: 10;
+    font-size: 14px;
+    line-height: 1.4;
+    border: 1px solid rgba(100, 100, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 50, 0.5);
+}
+
+.time {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 4px;
+    text-shadow: 0 0 5px #4a4aff;
+}
+
+.astronomy {
+    opacity: 0.8;
+    font-size: 12px;
+}
